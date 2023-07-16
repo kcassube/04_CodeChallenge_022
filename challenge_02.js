@@ -24,7 +24,7 @@ let age = parseInt(prompt("Geben Sie Ihr Alter ein:"));
         {
       console.log(name + " trinkt Milch.");
     }
-         
+
       else if (age >= 6 && age <= 12) 
         {
       console.log(name + " trinkt Saft.");
