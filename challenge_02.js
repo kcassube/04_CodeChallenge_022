@@ -20,17 +20,28 @@ let name = prompt("Geben Sie Ihren Namen ein:");
 
 
 let age = parseInt(prompt("Geben Sie Ihr Alter ein:"));
+      if (age >= 0 && age <= 5) 
+        {
+      console.log(name + " trinkt Milch.");
+    }
+         
+      else if (age >= 6 && age <= 12) 
+        {
+      console.log(name + " trinkt Saft.");
+    }
 
+      else if (age >= 13 && age <= 17) 
+        {
+      console.log(name + " trinkt Cola.");
+    }     
 
-if (age >= 0 && age <= 5) {
-  console.log(name + " trinkt Milch.");
-} else if (age >= 6 && age <= 12) {
-  console.log(name + " trinkt Saft.");
-} else if (age >= 13 && age <= 17) {
-  console.log(name + " trinkt Cola.");
-} else if (age >= 18) {
-  console.log(name + " trinkt Wein.");
-} else {
-  console.log("Ungültiges Alter!");
-}
+    else if (age >= 18) 
+        {
+      console.log(name + " trinkt Wein.");
+    }     
+
+else 
+        {
+      console.log("Ungültiges Alter!");
+    }
 
